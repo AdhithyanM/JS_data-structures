@@ -26,7 +26,9 @@ print(stack.size());
 
 print("---- pop()");
 print(stack.pop());
-print(stack);
+stack.print();
+print(stack.pop());
+stack.print();
 print(stack.size());
 
 

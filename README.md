@@ -1,17 +1,26 @@
 Build in data structures:
- * Arrays
- * Objects
- * Sets
- * Maps
+ * Array
+ * Object
+ * Set
+ * Map
 
 Custom data structures:
- * Stacks
- * Queues
- * Circular queues
- * Linked lists
- * Hash tables
- * Trees
+ * Stack
+ * Queue
+    * Circular Queue
+    * Priority Queue
+ * Linked List
+    * Linked List with tail
+    * Doubly Linked List
+ * Hash Table
+ * Tree
+    * Binary Tree
+    * Binary Search Tree
+    * AVL Tree
+    * Red Black Tree
+ * Trie
  * Graphs
+    * Directed Acyclic Graph
 
 Prerequisites:
  * Modern Javascript

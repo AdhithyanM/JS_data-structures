@@ -21,6 +21,7 @@ Custom data structures:
  * Trie
  * Graphs
     * Directed Acyclic Graph
+ * Heap
 
 Prerequisites:
  * Modern Javascript

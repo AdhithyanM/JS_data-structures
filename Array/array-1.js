@@ -13,6 +13,15 @@ arr.pop();
 // to remove an element at begining of array
 arr.shift();
 
+// delete arr[ind] - modifies that position to undefined.
+print("---- delete"); 
+var ar = [1, 2, 3, 4, 5, 6];
+print(ar);
+delete ar[3];
+print(ar);
+
+
+print("---- print using for loop")
 for(const item of arr) {
     print(arr[0]);
 }
@@ -161,6 +170,9 @@ let stock = [
 ];
 let mayo = stock.find((s) => s.item === 'mayo');
 print(mayo);
+
+
+
 // findIndex
 let mayoIndex = stock.findIndex((s) => s.item === 'mayo');
 print(mayoIndex);

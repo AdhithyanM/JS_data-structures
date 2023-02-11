@@ -1,4 +1,5 @@
 Arrays:
+-------
 * An array is a data structure that can hold a collection of values
 * Arrays can contain a mix of different data types. 
 * you can store strings, booleans, numbers or even objects all in the same array.

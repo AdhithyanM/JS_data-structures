@@ -23,7 +23,7 @@ print(ar);
 
 print("---- print using for loop")
 for(const item of arr) {
-    print(arr[0]);
+  print(arr[0]);
 }
 
 
@@ -104,12 +104,12 @@ eg: forEach
 // forEach
 print("----- forEach()");
 names.forEach((n) => {
-    print(n);
+  print(n);
 });
 print("-- custom control for loop")
 // for custom control use normal for loop
 for (let i = 2; i < names.length; i = i+2) {
-    print(names[i]);
+  print(names[i]);
 }
 
 
@@ -125,9 +125,9 @@ console.log(doubled);
 // filter - to get the filtered array from the first array based on some filter condition performing on each elements.
 print("---- filter()");
 let posts = [
-    { title: 'post1', author: 'ben' },
-    { title: 'post2', author: 'ben' },
-    { title: 'post3', author: 'zayde' },
+	{ title: 'post1', author: 'ben' },
+  { title: 'post2', author: 'ben' },
+  { title: 'post3', author: 'zayde' },
 ];
 let benPosts = posts.filter(p => p.author === 'ben');
 print(benPosts);
@@ -137,8 +137,8 @@ print(benPosts);
 // reduce - to reduce an array down to a single value.
 print("---- reduce()");
 let total = nums2.reduce(
-    (accumulator, value) => accumulator + value,    // it provides us an accumulator which gets carried throughout the traversal
-    0                                               // starting value of our accumulator (total in this case)
+  (accumulator, value) => accumulator + value,    // it provides us an accumulator which gets carried throughout the traversal
+  0                                               // starting value of our accumulator (total in this case)
 );
 print(total);
 // one common use case for reduce is to find max value in an array.
@@ -164,9 +164,9 @@ print(allGreaterThan0);
 // find - to find a certain item in the array based on a condition
 print("---- find()");
 let stock = [
-    { item: "ketchup", quantity: 32 },
-    { item: "mayo", quantity: 35 },
-    { item: "hot sauce", quantity: 38 }
+  { item: "ketchup", quantity: 32 },
+  { item: "mayo", quantity: 35 },
+  { item: "hot sauce", quantity: 38 }
 ];
 let mayo = stock.find((s) => s.item === 'mayo');
 print(mayo);

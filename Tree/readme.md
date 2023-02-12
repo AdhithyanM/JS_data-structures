@@ -80,8 +80,8 @@ Traversal Techniques:
     2. Create a queue
     3. Enqueue the root node
     4. As long as a node exists in the queue,
-      - Dequeue the node from the front
-      - Read the node's value
-      - Enqueue the node's left child if it exists
-      - Enqueue the node's right child if it exists
+       - Dequeue the node from the front
+       - Read the node's value
+       - Enqueue the node's left child if it exists
+       - Enqueue the node's right child if it exists
 * More on this: https://dev.to/anishkumar/tree-data-structure-in-javascript-1o99

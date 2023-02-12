@@ -66,9 +66,10 @@ class CircularQueue
     } else {
       let str = '';
       let i;
-      for(i = this.#front; 
-          i !== this.#rear; 
-          i = (i+1) % this.#capacity
+      for (
+        i = this.#front; 
+        i !== this.#rear; 
+        i = (i+1) % this.#capacity
       ) {
         str += this.#items[i] + ', ';
       }
